@@ -87,7 +87,7 @@ const FileSystem = require('./fileSystem');
 
   if (!config.token) {
     console.log('Token mangler');
-    console.log('Hent ditt token fra nettsiden');
+    console.log('Hent ditt token fra nettsiden, cookien kallt "id"');
     console.log('Legg inn tokenet med kommandoen "token [token]"');
   }
   else {
